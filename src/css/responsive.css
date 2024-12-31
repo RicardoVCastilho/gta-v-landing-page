@@ -1,0 +1,88 @@
+/* Responsividade para telas menores que 1024px */
+@media (max-width: 1024px) {
+    .header {
+        padding: 0 40px;
+    }
+
+    .header .menu {
+        gap: 15px;
+    }
+
+    .home .informations {
+        padding: 40px;
+        max-width: 100%;
+    }
+
+    .buy-now .card {
+        width: 80%;
+        padding: 40px;
+    }
+
+    .buy-now .informations h3 {
+        font-size: 40px;
+    }
+}
+
+/* Responsividade para telas menores que 768px */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 20px;
+        align-items: flex-start;
+    }
+
+    .home {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .home .informations {
+        padding: 20px;
+    }
+
+    .buy-now .card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .buy-now .informations h3 {
+        font-size: 32px;
+    }
+
+    .footer-content {
+        padding: 20px;
+    }
+}
+
+/* Responsividade para telas menores que 480px */
+@media (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+
+    .home .informations .title {
+        font-size: 36px;
+    }
+
+    .home .informations .text {
+        font-size: 14px;
+    }
+
+    .buy-now .card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .buy-now .informations h3 {
+        font-size: 24px;
+    }
+
+    .buy-now-btn, .plataform-btn {
+        width: 80%;
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}

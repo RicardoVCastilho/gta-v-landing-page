@@ -11,12 +11,12 @@ body {
     align-items: center;
     padding: 0 80px;
     border-bottom: 1px solid #282828;
-    transition: height 0.3s ease; /* Transição suave */
+    transition: height 0.3s ease; 
 }
 
 .header.expanded {
-    height: auto; /* Permitir altura dinâmica */
-    padding-bottom: 20px; /* Espaço extra abaixo do menu */
+    height: auto;
+    padding-bottom: 20px;
 }
 
 .header .logos {
@@ -36,37 +36,33 @@ body {
     display: none;
 }
 
-/* Menu hambúrguer no mobile */
 .header .hamburguer-menu {
     display: none;
     position: absolute;
-    top: 80px; /* Abaixo do header */
+    top: 80px;
     right: 10px;
     background-color: #0b0b0b;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 10px;
     z-index: 1000;
-    width: calc(100% - 20px); /* Quase toda a largura da tela */
+    width: calc(100% - 20px);
     text-align: center;
 }
 
-/* Menu exibido */
 .header .hamburguer-menu.open {
     display: block;
 }
 
-/* Estilização das listas */
 .header .hamburguer-menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Alinhar verticalmente */
-    gap: 15px; /* Espaço entre os itens */
+    flex-direction: column;
+    gap: 15px;
 }
 
-/* Links do menu */
 .header .hamburguer-menu ul li a {
     text-decoration: none;
     color: #e8e8e8;
@@ -76,16 +72,15 @@ body {
 }
 
 .header .hamburguer-menu ul li a:hover {
-    color: #007BFF; /* Cor ao passar o mouse */
+    color: #007BFF;
 }
 
-/* Ícone do menu hambúrguer */
 .header .hamburguer-menu-icon {
     display: block;
     position: absolute;
     right: 20px;
     top: 20px;
-    z-index: 1100; /* Garantir que fique acima */
+    z-index: 1100;
 }
 
 .header .hamburguer-menu-icon {
@@ -239,7 +234,7 @@ body {
     color: #fff;
     font-size: 35px;
     font-weight: 700;
-    margin-bottom: 10px; /* Para garantir que o título tenha um espaçamento adequado */
+    margin-bottom: 10px;
 }
 
 .buy-now .plataform-btn .plataforms {
@@ -251,19 +246,19 @@ body {
 }
 
 .buy-now .plataform-btn .plataforms li {
-    display: flex; /* Para alinhar o conteúdo (imagem) corretamente */
-    justify-content: center; /* Centraliza a imagem */
-    align-items: center; /* Centraliza a imagem verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px 0;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Adicionando transição suave */
-    border-radius: 5px; /* Deixa os itens com bordas arredondadas */
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
 }
 
 .buy-now .plataform-btn .plataforms li img {
-    max-width: 100%; /* As imagens ocuparão o tamanho disponível dentro do <li> */
-    max-height: 60px; /* Limita a altura das imagens para que não fiquem desproporcionais */
-    object-fit: contain; /* Faz com que as imagens se ajustem ao espaço sem distorcer */
+    max-width: 100%;
+    max-height: 60px;
+    object-fit: contain;
 }
 
 .buy-now  .plataform-btn .plataforms li:nth-child(1){

@@ -23,7 +23,6 @@
 }
 
 @media (max-width: 768px) {
-    /* Header responsivo */
     .header {
         flex-direction: column;
         align-items: center;
@@ -36,11 +35,11 @@
     }
 
     .header .menu {
-        display: none; /* Esconde o menu principal */
+        display: none;
     }
 
     .header .hamburguer-menu-icon {
-        display: flex; /* Exibe o ícone do menu hamburguer */
+        display: flex;
         align-items: center;
         padding-right: 25px;
     }
@@ -54,18 +53,17 @@
     .hamburguer-menu ul {
         display: flex;
         flex-direction: column;
-        justify-content: center; /* Centraliza horizontalmente */
-        align-items: center; /* Centraliza verticalmente */
+        justify-content: center;
+        align-items: center;
         text-align: center;
         padding-bottom: 1rem;
-        margin: 0; /* Remove margens extras */
+        margin: 0;
     }
 
     .hamburguer-menu .nav-item {
         padding: 1.2rem 0;
     }
 
-    /* Ajustes para o conteúdo da página */
     .home {
         flex-direction: column;
         padding: 20px;
@@ -81,7 +79,7 @@
     }
 
     .buy-now .informations h3 {
-        font-size: 1.8rem; /* Tamanho ajustado para responsividade */
+        font-size: 1.8rem;
     }
 
     .footer-content {
@@ -97,24 +95,22 @@
         background-color: black;
     }
 
-    /* Logos ajustados */
     .header .logos {
         align-items: center;
         justify-content: center;
         margin-bottom: 15px;
         display: flex;
-        gap: 10px; /* Espaçamento entre os logos */
+        gap: 10px;
     }
 
     .header .logos img {
-        max-width: 80%; /* Ajuste do tamanho dos logos */
+        max-width: 80%;
         height: auto;
     }
 
-    /* Ícone do menu centralizado abaixo dos logos */
     .hamburguer-menu-icon {
         display: block;
-        margin-top: 20px; /* Espaço entre o logo e o ícone */
+        margin-top: 20px;
         padding: 0;
     }
 
@@ -124,7 +120,6 @@
         cursor: pointer;
     }
 
-    /* Menu hamburguer */
     .hamburguer-menu ul {
         display: flex;
         flex-direction: column;
@@ -139,12 +134,10 @@
         padding: 1.2rem 0;
     }
 
-    /* Ajuste de texto e itens de navegação */
     .header .menu li a {
         font-size: 14px;
     }
 
-    /* Ajustes adicionais para o conteúdo da página */
     .home {
         flex-direction: column;
         padding: 20px;

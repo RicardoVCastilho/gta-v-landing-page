@@ -8,6 +8,5 @@ function showMenu() {
         ? "./src/images/close_white_36dp.svg"
         : "./src/images/menu_white_36dp.svg";
 
-    // Ajusta o padding do header ao abrir/fechar o menu
-    header.style.padding = isOpen ? '10px 20px 150px' : '10px 20px'; // Expande o padding do header
+    header.style.padding = isOpen ? '10px 20px 150px' : '10px 20px';
 }

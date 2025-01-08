@@ -21,17 +21,12 @@
             <hr>
             <img src="./src/images/logo-gta.svg" alt="Logo do Grand Theft Auto V">
         </div>
-
+    
         <nav>
+            <!-- Menu para telas maiores -->
             <ul class="menu">
-                <li>
-                    <a href="#home">Menu</a>
-                </li>
-
-                <li>
-                    <a href="#buy-now">Compre já</a>
-                </li>
-
+                <li><a href="#home">Menu</a></li>
+                <li><a href="#buy-now">Compre já</a></li>
                 <li>
                     <a href="https://support.rockstargames.com/categories/200013306" target="_blank">
                         Suporte
@@ -39,8 +34,28 @@
                     </a>
                 </li>
             </ul>
+    
+            <!-- Ícone do menu hambúrguer -->
+            <div class="hamburguer-menu-icon" onClick="showMenu()">
+                <img class="icon" src="./src/images/menu_white_36dp.svg" alt="Ícone do menu">
+            </div>
+    
+            <!-- Menu para telas menores -->
+            <div class="hamburguer-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link">Menu</a></li>
+                    <li><a href="#buy-now" class="nav-link">Compre já</a></li>
+                    <li>
+                        <a href="https://support.rockstargames.com/categories/200013306" target="_blank" class="nav-link">
+                            Suporte
+                            <img src="./src/images/icone-link.svg" alt="Ícone de link do suporte Rockstar">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
+    
 
     <main class="home" id="home">
         <img class="background-img" src="./src/images/bg-main.png"
@@ -103,30 +118,34 @@
 
                 <ul class="plataforms">
                     <li>
-                        <img src="./src/images/logo-ps5.svg" alt="Logo do PS5">
-                        <a href="https://www.playstation.com/pt-br/games/grand-theft-auto-v/" target="_blank"></a>
+                        <a href="https://www.playstation.com/pt-br/games/grand-theft-auto-v/" target="_blank">
+                            <img src="./src/images/logo-ps5.svg" alt="Logo do PS5">
+                        </a>
                     </li>
 
                     <li>
-                        <img src="./src/images/logo-ps4.svg" alt="Logo do PS4">
-                        <a href="https://www.playstation.com/pt-br/games/grand-theft-auto-v/" target="_blank"></a>
-
+                        <a href="https://www.playstation.com/pt-br/games/grand-theft-auto-v/" target="_blank">
+                            <img src="./src/images/logo-ps4.svg" alt="Logo do PS4">
+                        </a>
                     </li>
 
                     <li>
-                        <img src="./src/images/logo-pc.svg" alt="Logo do PC">
                         <a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/?l=portuguese"
-                            target="_blank"></a>
+                            target="_blank">
+                            <img src="./src/images/logo-pc.svg" alt="Logo do PC">
+                        </a>
                     </li>
 
                     <li>
-                        <img src="./src/images/logo-xbox-series-s.svg" alt="Logo do Xbox Series X|S">
-                        <a href="https://www.xbox.com/pt-BR/games/gta-v" target="_blank"></a>
+                        <a href="https://www.xbox.com/pt-BR/games/gta-v" target="_blank">
+                            <img src="./src/images/logo-xbox-series-s.svg" alt="Logo do Xbox Series X|S">
+                        </a>
                     </li>
 
                     <li>
-                        <img src="./src/images/logo-xbox-one.svg" alt="Logo do Xbox One">
-                        <a href="https://www.xbox.com/pt-BR/games/gta-v" target="_blank"></a>
+                        <a href="https://www.xbox.com/pt-BR/games/gta-v" target="_blank">
+                            <img src="./src/images/logo-xbox-one.svg" alt="Logo do Xbox One">
+                        </a>
                     </li>
                 </ul>
             </button>
@@ -148,6 +167,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./src/js/app.js"></script>
 </body>
 
 </html>

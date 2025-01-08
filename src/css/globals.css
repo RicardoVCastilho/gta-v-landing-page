@@ -229,20 +229,25 @@ body {
     cursor: pointer;
 }
 
+.buy-now .plataform-btn {
+    cursor: pointer;
+    width: 100%;
+}
+
 .buy-now .plataform-btn h3 {
     font-family: 'ChaletComprime';
     color: #fff;
     font-size: 35px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .buy-now .plataform-btn .plataforms {
     margin-top: 10px;
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 20px;
-    transition: all .3s ease-in;
+    transition: all .3s ease-in;;
 }
 
 .buy-now .plataform-btn .plataforms li {

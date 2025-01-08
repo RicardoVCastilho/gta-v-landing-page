@@ -1,3 +1,4 @@
+// função para o menu responsivo
 function showMenu() {
     const hamburgerMenu = document.querySelector('.hamburguer-menu');
     const icon = document.querySelector('.icon');
@@ -10,3 +11,14 @@ function showMenu() {
 
     header.style.padding = isOpen ? '10px 20px 150px' : '10px 20px';
 }
+
+// função para o seletor de plataformas
+document.querySelector('.plataform-btn').addEventListener('click', function() {
+    const plataformsList = this.querySelector('.plataforms');
+    
+    if (plataformsList.style.display === 'none' || plataformsList.style.display === '') {
+        plataformsList.style.display = 'flex';
+    } else {
+        plataformsList.style.display = 'none';
+    }
+});
